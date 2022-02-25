@@ -29,6 +29,12 @@ section article ul li.deleteMsg > span{
     color: #555;
 }
 
+
+section article ul li.mine{text-align: right;}
+section article ul li.mine > span{background-color: #E4BA0E;}
+section article ul li.mine > span button{}
+
+
 section form{width: 100%; height: 15%; display: flex; flex-wrap: wrap;}
 
 section form textarea{width: 80%; height: 100%; padding: 8px; resize: none; border:none; font-size: 15px; outline: none;}
