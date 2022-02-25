@@ -57,7 +57,7 @@
 
         //#1. 메시지 보내기
         function sendMessage(){
-            var message = document.getElementById("messages").value;
+            var message = document.getElementById("message").value;
             
             if(message.length < 1){
                 console.log("메시지 없음");
